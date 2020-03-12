@@ -1,0 +1,29 @@
+.ui-inputgroup {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}         
+.ui-inputgroup .ui-inputgroup-addon {
+    padding: 4px;
+}
+.ui-inputgroup .ui-inputgroup-addon, .ui-inputgroup .ui-inputgroup-addon-checkbox {
+    display: inline-block;
+    text-align: center;
+    min-width: 1.5em;
+    border: 0 none;
+}
+.ui-inputgroup .ui-inputtext {
+    padding-left: .5em;
+}
+
+body .ui-fluid .ui-inputgroup .md-inputfield {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body .ui-inputgroup .ui-inputgroup-addon .material-icons {
+    top: -6px;
+    position: relative;
+}
